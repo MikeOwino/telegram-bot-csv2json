@@ -62,7 +62,7 @@ def main():
     try:
         TOKEN = sys.argv[1]
     except IndexError:
-        TOKEN = os.environ.get("TOKEN")
+        TOKEN = os.environ.get("321333536:AAE2Psnpe2I8Bup6nD4BfZcCyeaMMzsg7qk")
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))

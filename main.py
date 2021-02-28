@@ -14,11 +14,11 @@ logger = logging.getLogger(__name__)
 
 
 def start(update, context):
-    update.message.reply_text("Hi! i'm the bot which convert csv to json")
+    update.message.reply_text("Hi! I can convert csv to json")
 
 
 def help(update, context):
-    update.message.reply_text('Help! you can contact me through Description')
+    update.message.reply_text('Help? you can contact the dev @decipha')
 
 
 def doc_handler(update, context):

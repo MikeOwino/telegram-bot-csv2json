@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 def start(update, context):
-    update.message.reply_text("Hi! I can convert csv to json /n Just send me the .csv file for convertion")
+    update.message.reply_text("Hello! I can convert csv to json /n Just send me the .csv file for convertion")
 
 
 def help(update, context):
